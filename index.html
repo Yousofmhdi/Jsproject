@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Budgety</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome.css">
+  
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</head>
+  <body>
+<div class="header">
+ <div class="budge">
+   <div class="budge-title">
+    Available Budget in
+    <span class="budge-title-span">Bahman 1398</span>
+   </div>
+   <div class="budge-number">0</div>
+   <div class="budge-income">
+     <div class="budge-income-value">INCOME</div>
+     <div class="budge-income-right">
+       <div class="budge-num">0</div>
+       <div class="budge-percen">---</div>
+     </div>
+   </div>
+   <div class="budge-expenses">
+    <div class="budge-expenses-value">EXPENSES</div>
+    <div class="budge-income-right">
+      <div class="budge-num">0</div>
+      <div class="budge-percen">---</div>
+    </div>
+   </div>
+ </div>
+</div>
+
+<div class="budge-navbar">
+<div class="budge-add">
+  <select name="add" id="plus-neg" class="budge-select">
+    <option value="plus" selected>+</option>
+    <option value="neg">-</option>
+  </select>
+  <input type="text" id="add-text" class="add-list" placeholder="Add description">
+  <input type="number" id="value" class="value-list" placeholder="Value">
+  <button class="btn-check">
+  <i class="fal fa-check-circle "></i>
+</button>
+</div>
+</div>
+
+<div class="budge-show-list">
+  <div class="content-income-list">
+  <h2>INCOME</h2>
+</div>
+<div class="content-expenses-list">
+  <h2>EXPENSES</h2>
+</div>
+</div>
+
+
+
+
+<script src="./Script.js"></script>
+ </body>
+</html>
